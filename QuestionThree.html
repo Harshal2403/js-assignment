@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUESTION-3 | JS DATE FORMATS</title>
+    <!-- <h2>DAY-2 ASSIGNMENT QUESTION-2</h2> -->
+</head>
+
+<body>
+    <h2>Date formats</h2>
+    <script>
+    	var today = new Date();
+		var dd = today.getDate();
+		var mm = today.getMonth() + 1;
+	var yyyy = today.getFullYear();
+	if (dd < 10) {
+	    dd = '0' + dd;
+	}
+	if (mm < 10) {
+    	mm = '0' + mm;
+	}
+	today = mm + '-' + dd + '-' + yyyy;
+	document.write(today+", ");
+	today = mm + '/' + dd + '/' + yyyy;
+	document.write(today+" OR ");
+	today = dd + '-' + mm + '-' + yyyy;
+	document.write(today+", ");
+	today = dd + '/' + mm + '/' + yyyy;
+	document.write(today);
+    </script>
+</body>
+
+</html>
