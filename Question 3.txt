@@ -1,0 +1,34 @@
+Q3. Write a brief intro on available data types in Javascript.
+Ans. In programming, data types is an important concept. To be able to operate on variables, it is important to know something about the type. Without data types, a computer cannot safely solve this:
+	var x = 16 + "Volvo";
+JavaScript has dynamic types. This means that the same variable can be used to hold different data types:
+Example
+	var x;           // Now x is undefined
+	x = 5;           // Now x is a Number
+	x = "John";      // Now x is a String
+Data types in Javascript are-
+1. JavaScript Strings: A string (or a text string) is a series of characters like "Harshal Parate". Strings are written with quotes. You can use single or double quotes:
+Example
+	var carName1 = "Lenovo ideapad 330";   // Using double quotes
+	var carName2 = 'Lenovo ideapad 330';   // Using single quotes
+
+2. JavaScript Numbers: JavaScript has only one type of numbers. Numbers can be written with, or without decimals:
+Example
+	var x1 = 34.00;     // Written with decimals
+	var x2 = 34;        // Written without decimals
+
+3. JavaScript Booleans: Booleans can only have two values: true or false. Booleans are often used in conditional testing.
+Example
+	var x = 5;
+	var y = 5;
+	var z = 6;
+	(x == y)       // Returns true
+	(x == z)       // Returns false
+
+4. JavaScript Arrays: JavaScript arrays are written with square brackets. Array items are separated by commas. Array indexes are zero-based, which means the first item is [0], second is [1], and so on. The following code declares (creates) an array called cars, containing three items (car names):
+Example
+	var cars = ["HP", "Dell", "Asus"];
+
+5. JavaScript Objects: JavaScript objects are written with curly braces {}. Object properties are written as name:value pairs, separated by commas.
+Example
+	var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
