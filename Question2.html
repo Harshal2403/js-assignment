@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Javascript Day-2 assignment</title>
+    </head>
+    <body>
+        <script>
+            var str1="  Hello World  ";
+            var str2="I'm Harshal";
+            console.log("str1=",str1);
+            console.log("str2=",str2);
+
+            var pos = str1.search("World");
+            console.log("search() method ",pos);
+            var res = str1.slice(7, 13);
+            console.log("slice() method ",res);
+            var res1 = str1.substring(7, 13);
+            console.log("substring() ",res1);
+            var res2 = str1.substr(7, 6);
+            console.log("substr() ",res2);
+            var n = str1.replace("World", "LetsUpgrade");
+            console.log("replace() ",n);
+            var join = str1.concat("", str2);
+            console.log("concat() ",join);
+            console.log("trim() ",str1.trim());
+        </script>
+    </body>
+</html>
