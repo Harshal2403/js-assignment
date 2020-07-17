@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Javascript Essentials assignment Day-3</title>
+    </head>
+    <body>
+        <script>
+            var os = prompt("Enter a OS name and OS version: ");
+            var a,b,z=os.length;
+            for(a=0;a<z;a=a+1) {
+                if(os[a]==" ") {
+                    b=a;
+                    break;
+                }
+            }
+            var charPart=os.substr(0,b);
+            var numPart=os.substr(b+1,z-1);
+            console.log("The OS name is "+charPart+" and version is "+numPart);
+        </script>
+    </body>
+</html>
